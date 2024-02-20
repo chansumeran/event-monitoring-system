@@ -37,7 +37,7 @@
             // 
             labelEventName.AutoSize = true;
             labelEventName.Font = new Font("Tahoma", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelEventName.Location = new Point(325, 110);
+            labelEventName.Location = new Point(304, 116);
             labelEventName.Name = "labelEventName";
             labelEventName.Size = new Size(122, 23);
             labelEventName.TabIndex = 0;
@@ -47,15 +47,15 @@
             // 
             txtEventName.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             txtEventName.Font = new Font("Calibri", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtEventName.Location = new Point(213, 169);
+            txtEventName.Location = new Point(246, 172);
             txtEventName.Name = "txtEventName";
-            txtEventName.Size = new Size(334, 22);
+            txtEventName.Size = new Size(234, 22);
             txtEventName.TabIndex = 1;
             // 
             // buttonSaveEvent
             // 
             buttonSaveEvent.Font = new Font("Calibri", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonSaveEvent.Location = new Point(325, 216);
+            buttonSaveEvent.Location = new Point(304, 222);
             buttonSaveEvent.Name = "buttonSaveEvent";
             buttonSaveEvent.Size = new Size(122, 33);
             buttonSaveEvent.TabIndex = 2;

@@ -34,5 +34,13 @@ namespace Event_Monitoring_System.Events
             showParticipants.Dock = DockStyle.Fill;
             eventPanel2.Controls.Add(showParticipants);
         }
+
+        private void buttonRemove_Click(object sender, EventArgs e)
+        {
+            eventPanel2.Controls.Clear();
+            RemoveEventControl removeEvent = new RemoveEventControl();
+            removeEvent.Dock = DockStyle.Fill;
+            eventPanel2.Controls.Add(removeEvent);
+        }
     }
 }

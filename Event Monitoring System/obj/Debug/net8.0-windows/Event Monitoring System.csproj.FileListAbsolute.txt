@@ -91,3 +91,4 @@ C:\Users\chris\Documents\event-monitoring-system\Event Monitoring System\obj\Deb
 C:\Users\chris\Documents\event-monitoring-system\Event Monitoring System\obj\Debug\net8.0-windows\Event Monitoring System.pdb
 C:\Users\chris\Documents\event-monitoring-system\Event Monitoring System\obj\Debug\net8.0-windows\Event Monitoring System.genruntimeconfig.cache
 C:\Users\chris\Documents\event-monitoring-system\Event Monitoring System\obj\Debug\net8.0-windows\ref\Event Monitoring System.dll
+C:\Users\chris\Documents\event-monitoring-system\Event Monitoring System\obj\Debug\net8.0-windows\Event_Monitoring_System.Events.RemoveEventControl.resources

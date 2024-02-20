@@ -33,6 +33,8 @@
             buttonShow = new Button();
             buttonAddEvent = new Button();
             eventPanel2 = new Panel();
+            buttonRemove = new Button();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             eventPanel1.SuspendLayout();
             eventPanel2.SuspendLayout();
             SuspendLayout();
@@ -58,7 +60,7 @@
             // 
             // buttonShow
             // 
-            buttonShow.Location = new Point(412, 185);
+            buttonShow.Location = new Point(304, 186);
             buttonShow.Name = "buttonShow";
             buttonShow.Size = new Size(110, 41);
             buttonShow.TabIndex = 1;
@@ -68,7 +70,7 @@
             // 
             // buttonAddEvent
             // 
-            buttonAddEvent.Location = new Point(204, 185);
+            buttonAddEvent.Location = new Point(150, 186);
             buttonAddEvent.Name = "buttonAddEvent";
             buttonAddEvent.Size = new Size(110, 41);
             buttonAddEvent.TabIndex = 0;
@@ -79,12 +81,23 @@
             // eventPanel2
             // 
             eventPanel2.BackColor = Color.OldLace;
+            eventPanel2.Controls.Add(buttonRemove);
             eventPanel2.Controls.Add(buttonAddEvent);
             eventPanel2.Controls.Add(buttonShow);
             eventPanel2.Location = new Point(0, 132);
             eventPanel2.Name = "eventPanel2";
             eventPanel2.Size = new Size(728, 439);
             eventPanel2.TabIndex = 5;
+            // 
+            // buttonRemove
+            // 
+            buttonRemove.Location = new Point(455, 186);
+            buttonRemove.Name = "buttonRemove";
+            buttonRemove.Size = new Size(110, 41);
+            buttonRemove.TabIndex = 2;
+            buttonRemove.Text = "Remove ";
+            buttonRemove.UseVisualStyleBackColor = true;
+            buttonRemove.Click += buttonRemove_Click;
             // 
             // EventControl
             // 
@@ -107,5 +120,7 @@
         private Button buttonShow;
         private Button buttonAddEvent;
         private Panel eventPanel2;
+        private Button buttonRemove;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

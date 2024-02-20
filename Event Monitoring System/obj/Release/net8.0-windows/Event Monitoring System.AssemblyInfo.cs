@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Event Monitoring System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aad0ed62348c6cbfa7d4d3dec62339b3f8032f5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd3b7bffbdd514acda476a7c8e47baca60fd10f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Event Monitoring System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Event Monitoring System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

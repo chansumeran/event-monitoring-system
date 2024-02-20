@@ -7,6 +7,9 @@
     <Compile Update="Events\EventControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Events\RemoveEventControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Events\ShowParticipantsOfEventControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
